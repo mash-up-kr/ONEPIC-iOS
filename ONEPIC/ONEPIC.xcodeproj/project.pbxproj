@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */; };
+		CE34E30221A96BC9004E6586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E30121A96BC9004E6586 /* ViewController.swift */; };
+		CE34E30521A96BC9004E6586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30321A96BC9004E6586 /* Main.storyboard */; };
+		CE34E30721A96BCB004E6586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30621A96BCB004E6586 /* Assets.xcassets */; };
+		CE34E30A21A96BCB004E6586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30821A96BCB004E6586 /* LaunchScreen.storyboard */; };
+		CE34E31521A96BCB004E6586 /* ONEPICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E31421A96BCB004E6586 /* ONEPICTests.swift */; };
+		CE34E32021A96BCB004E6586 /* ONEPICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E31F21A96BCB004E6586 /* ONEPICUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE34E31121A96BCB004E6586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE34E2F421A96BC9004E6586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE34E2FB21A96BC9004E6586;
+			remoteInfo = ONEPIC;
+		};
+		CE34E31C21A96BCB004E6586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE34E2F421A96BC9004E6586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE34E2FB21A96BC9004E6586;
+			remoteInfo = ONEPIC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE34E2FC21A96BC9004E6586 /* ONEPIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONEPIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE34E30121A96BC9004E6586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE34E30421A96BC9004E6586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE34E30621A96BCB004E6586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE34E30921A96BCB004E6586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE34E30B21A96BCB004E6586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE34E31021A96BCB004E6586 /* ONEPICTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONEPICTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE34E31421A96BCB004E6586 /* ONEPICTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONEPICTests.swift; sourceTree = "<group>"; };
+		CE34E31621A96BCB004E6586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE34E31B21A96BCB004E6586 /* ONEPICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONEPICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE34E31F21A96BCB004E6586 /* ONEPICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONEPICUITests.swift; sourceTree = "<group>"; };
+		CE34E32121A96BCB004E6586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE34E2F921A96BC9004E6586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE34E30D21A96BCB004E6586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE34E31821A96BCB004E6586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE34E2F321A96BC9004E6586 = {
+			isa = PBXGroup;
+			children = (
+				CE34E2FE21A96BC9004E6586 /* ONEPIC */,
+				CE34E31321A96BCB004E6586 /* ONEPICTests */,
+				CE34E31E21A96BCB004E6586 /* ONEPICUITests */,
+				CE34E2FD21A96BC9004E6586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE34E2FD21A96BC9004E6586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE34E2FC21A96BC9004E6586 /* ONEPIC.app */,
+				CE34E31021A96BCB004E6586 /* ONEPICTests.xctest */,
+				CE34E31B21A96BCB004E6586 /* ONEPICUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE34E2FE21A96BC9004E6586 /* ONEPIC */ = {
+			isa = PBXGroup;
+			children = (
+				CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */,
+				CE34E30121A96BC9004E6586 /* ViewController.swift */,
+				CE34E30321A96BC9004E6586 /* Main.storyboard */,
+				CE34E30621A96BCB004E6586 /* Assets.xcassets */,
+				CE34E30821A96BCB004E6586 /* LaunchScreen.storyboard */,
+				CE34E30B21A96BCB004E6586 /* Info.plist */,
+			);
+			path = ONEPIC;
+			sourceTree = "<group>";
+		};
+		CE34E31321A96BCB004E6586 /* ONEPICTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE34E31421A96BCB004E6586 /* ONEPICTests.swift */,
+				CE34E31621A96BCB004E6586 /* Info.plist */,
+			);
+			path = ONEPICTests;
+			sourceTree = "<group>";
+		};
+		CE34E31E21A96BCB004E6586 /* ONEPICUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE34E31F21A96BCB004E6586 /* ONEPICUITests.swift */,
+				CE34E32121A96BCB004E6586 /* Info.plist */,
+			);
+			path = ONEPICUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE34E2FB21A96BC9004E6586 /* ONEPIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE34E32421A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPIC" */;
+			buildPhases = (
+				CE34E2F821A96BC9004E6586 /* Sources */,
+				CE34E2F921A96BC9004E6586 /* Frameworks */,
+				CE34E2FA21A96BC9004E6586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ONEPIC;
+			productName = ONEPIC;
+			productReference = CE34E2FC21A96BC9004E6586 /* ONEPIC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE34E30F21A96BCB004E6586 /* ONEPICTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE34E32721A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPICTests" */;
+			buildPhases = (
+				CE34E30C21A96BCB004E6586 /* Sources */,
+				CE34E30D21A96BCB004E6586 /* Frameworks */,
+				CE34E30E21A96BCB004E6586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE34E31221A96BCB004E6586 /* PBXTargetDependency */,
+			);
+			name = ONEPICTests;
+			productName = ONEPICTests;
+			productReference = CE34E31021A96BCB004E6586 /* ONEPICTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE34E31A21A96BCB004E6586 /* ONEPICUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE34E32A21A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPICUITests" */;
+			buildPhases = (
+				CE34E31721A96BCB004E6586 /* Sources */,
+				CE34E31821A96BCB004E6586 /* Frameworks */,
+				CE34E31921A96BCB004E6586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE34E31D21A96BCB004E6586 /* PBXTargetDependency */,
+			);
+			name = ONEPICUITests;
+			productName = ONEPICUITests;
+			productReference = CE34E31B21A96BCB004E6586 /* ONEPICUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE34E2F421A96BC9004E6586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mash-Up";
+				TargetAttributes = {
+					CE34E2FB21A96BC9004E6586 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CE34E30F21A96BCB004E6586 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CE34E2FB21A96BC9004E6586;
+					};
+					CE34E31A21A96BCB004E6586 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CE34E2FB21A96BC9004E6586;
+					};
+				};
+			};
+			buildConfigurationList = CE34E2F721A96BC9004E6586 /* Build configuration list for PBXProject "ONEPIC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE34E2F321A96BC9004E6586;
+			productRefGroup = CE34E2FD21A96BC9004E6586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE34E2FB21A96BC9004E6586 /* ONEPIC */,
+				CE34E30F21A96BCB004E6586 /* ONEPICTests */,
+				CE34E31A21A96BCB004E6586 /* ONEPICUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE34E2FA21A96BC9004E6586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE34E30A21A96BCB004E6586 /* LaunchScreen.storyboard in Resources */,
+				CE34E30721A96BCB004E6586 /* Assets.xcassets in Resources */,
+				CE34E30521A96BC9004E6586 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE34E30E21A96BCB004E6586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE34E31921A96BCB004E6586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE34E2F821A96BC9004E6586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE34E30221A96BC9004E6586 /* ViewController.swift in Sources */,
+				CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE34E30C21A96BCB004E6586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE34E31521A96BCB004E6586 /* ONEPICTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE34E31721A96BCB004E6586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE34E32021A96BCB004E6586 /* ONEPICUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE34E31221A96BCB004E6586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE34E2FB21A96BC9004E6586 /* ONEPIC */;
+			targetProxy = CE34E31121A96BCB004E6586 /* PBXContainerItemProxy */;
+		};
+		CE34E31D21A96BCB004E6586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE34E2FB21A96BC9004E6586 /* ONEPIC */;
+			targetProxy = CE34E31C21A96BCB004E6586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE34E30321A96BC9004E6586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE34E30421A96BC9004E6586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE34E30821A96BCB004E6586 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE34E30921A96BCB004E6586 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE34E32221A96BCB004E6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE34E32321A96BCB004E6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE34E32521A96BCB004E6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ONEPIC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mash-up.ONEPIC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE34E32621A96BCB004E6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ONEPIC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mash-up.ONEPIC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE34E32821A96BCB004E6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ONEPICTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mash-up.ONEPICTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ONEPIC.app/ONEPIC";
+			};
+			name = Debug;
+		};
+		CE34E32921A96BCB004E6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ONEPICTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mash-up.ONEPICTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ONEPIC.app/ONEPIC";
+			};
+			name = Release;
+		};
+		CE34E32B21A96BCB004E6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ONEPICUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mash-up.ONEPICUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ONEPIC;
+			};
+			name = Debug;
+		};
+		CE34E32C21A96BCB004E6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ONEPICUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mash-up.ONEPICUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ONEPIC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE34E2F721A96BC9004E6586 /* Build configuration list for PBXProject "ONEPIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE34E32221A96BCB004E6586 /* Debug */,
+				CE34E32321A96BCB004E6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE34E32421A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE34E32521A96BCB004E6586 /* Debug */,
+				CE34E32621A96BCB004E6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE34E32721A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPICTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE34E32821A96BCB004E6586 /* Debug */,
+				CE34E32921A96BCB004E6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE34E32A21A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPICUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE34E32B21A96BCB004E6586 /* Debug */,
+				CE34E32C21A96BCB004E6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE34E2F421A96BC9004E6586 /* Project object */;
+}
