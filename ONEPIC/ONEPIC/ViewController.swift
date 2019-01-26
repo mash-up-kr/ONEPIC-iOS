@@ -10,9 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var uiTestButton: UIButton!
+    
+    lazy var transitionDelegate = PresentationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        transitionDelegate.direction = .bottom
+        uiTestButton.addTarget(nil, action: #selector(printTest), for: .touchUpInside)
+
+    }
+    
+    @objc func printTest() {
+//        let tempStoryBoard = UIStoryboard(name: "ChoicePictureOption", bundle: nil)
+//        let tempVC = tempStoryBoard.instantiateViewController(withIdentifier: "ChoicePictureOptionViewController")
+        
+        let tempVC = UIStoryboard(name: "ChoicePictureOption", bundle: nil).instantiateViewController(withIdentifier: "ChoicePictureOptionViewController")
+        
+        tempVC.transitioningDelegate = transitionDelegate
+        tempVC.modalPresentationStyle = .custom
+        
+        present(tempVC, animated: true)
     }
 
 
