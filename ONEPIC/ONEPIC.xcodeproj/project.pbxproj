@@ -14,12 +14,12 @@
 		CE34E30A21A96BCB004E6586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30821A96BCB004E6586 /* LaunchScreen.storyboard */; };
 		CE34E31521A96BCB004E6586 /* ONEPICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E31421A96BCB004E6586 /* ONEPICTests.swift */; };
 		CE34E32021A96BCB004E6586 /* ONEPICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E31F21A96BCB004E6586 /* ONEPICUITests.swift */; };
-		D9C6AB6521FC1C53001C0AB8 /* ChoicePictureOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AB6421FC1C53001C0AB8 /* ChoicePictureOptionViewController.swift */; };
-		D9C6AB6721FC1C6A001C0AB8 /* ChoicePictureOption.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C6AB6621FC1C6A001C0AB8 /* ChoicePictureOption.storyboard */; };
+		D9C6AB6721FC1C6A001C0AB8 /* UploadPictureOption.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C6AB6621FC1C6A001C0AB8 /* UploadPictureOption.storyboard */; };
 		D9C6AB6A21FC1FEB001C0AB8 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AB6921FC1FEB001C0AB8 /* PresentationManager.swift */; };
 		D9C6AB6C21FC2047001C0AB8 /* PresentationDirectionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AB6B21FC2047001C0AB8 /* PresentationDirectionEnum.swift */; };
 		D9C6AB6E21FC20A2001C0AB8 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AB6D21FC20A2001C0AB8 /* PresentationController.swift */; };
 		D9C6AB7021FC2123001C0AB8 /* PresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AB6F21FC2123001C0AB8 /* PresentationAnimator.swift */; };
+		D9C6AB7221FD64F6001C0AB8 /* UploadPictureOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AB7121FD64F5001C0AB8 /* UploadPictureOptionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +53,12 @@
 		CE34E31B21A96BCB004E6586 /* ONEPICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONEPICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE34E31F21A96BCB004E6586 /* ONEPICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONEPICUITests.swift; sourceTree = "<group>"; };
 		CE34E32121A96BCB004E6586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9C6AB6421FC1C53001C0AB8 /* ChoicePictureOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicePictureOptionViewController.swift; sourceTree = "<group>"; };
-		D9C6AB6621FC1C6A001C0AB8 /* ChoicePictureOption.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChoicePictureOption.storyboard; sourceTree = "<group>"; };
+		D9C6AB6621FC1C6A001C0AB8 /* UploadPictureOption.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UploadPictureOption.storyboard; sourceTree = "<group>"; };
 		D9C6AB6921FC1FEB001C0AB8 /* PresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
 		D9C6AB6B21FC2047001C0AB8 /* PresentationDirectionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDirectionEnum.swift; sourceTree = "<group>"; };
 		D9C6AB6D21FC20A2001C0AB8 /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
 		D9C6AB6F21FC2123001C0AB8 /* PresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAnimator.swift; sourceTree = "<group>"; };
+		D9C6AB7121FD64F5001C0AB8 /* UploadPictureOptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadPictureOptionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				CE34E30321A96BC9004E6586 /* Main.storyboard */,
-				D9C6AB6621FC1C6A001C0AB8 /* ChoicePictureOption.storyboard */,
+				D9C6AB6621FC1C6A001C0AB8 /* UploadPictureOption.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 		D9C6AB6321FC1C12001C0AB8 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				D9C6AB6421FC1C53001C0AB8 /* ChoicePictureOptionViewController.swift */,
+				D9C6AB7121FD64F5001C0AB8 /* UploadPictureOptionVC.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -304,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE34E30A21A96BCB004E6586 /* LaunchScreen.storyboard in Resources */,
-				D9C6AB6721FC1C6A001C0AB8 /* ChoicePictureOption.storyboard in Resources */,
+				D9C6AB6721FC1C6A001C0AB8 /* UploadPictureOption.storyboard in Resources */,
 				CE34E30721A96BCB004E6586 /* Assets.xcassets in Resources */,
 				CE34E30521A96BC9004E6586 /* Main.storyboard in Resources */,
 			);
@@ -332,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE34E30221A96BC9004E6586 /* ViewController.swift in Sources */,
-				D9C6AB6521FC1C53001C0AB8 /* ChoicePictureOptionViewController.swift in Sources */,
+				D9C6AB7221FD64F6001C0AB8 /* UploadPictureOptionVC.swift in Sources */,
 				D9C6AB6C21FC2047001C0AB8 /* PresentationDirectionEnum.swift in Sources */,
 				CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */,
 				D9C6AB6A21FC1FEB001C0AB8 /* PresentationManager.swift in Sources */,

@@ -8,16 +8,15 @@
 
 import UIKit
 
-class ChoicePictureOptionViewController: UIViewController {
+class UploadPictureOptionVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         roundCorners(layer: self.view.layer, radius: 15.0)
     }
     
     func roundCorners(layer targetLayer: CALayer, radius withRaidus: CGFloat) {
         targetLayer.cornerRadius = withRaidus
-        targetLayer.masksToBounds = true // default = false
+        targetLayer.masksToBounds = true
     }
 }

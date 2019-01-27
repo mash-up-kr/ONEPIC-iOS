@@ -16,9 +16,6 @@ extension PresentationManager: UIViewControllerTransitioningDelegate {
     func presentationController(forPresented presented: UIViewController,
                                 presenting: UIViewController?,
                                 source: UIViewController) -> UIPresentationController? {
-//        let presentationController = PresentationController(presentedViewController: presented,
-//                                                            presenting: presenting,
-//                                                            direction: direction)
         
         let presentationController = PresentationController(presentedViewController: presented,
                                                             presenting: presenting,

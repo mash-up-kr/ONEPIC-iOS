@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Choice Picture Option View Controller-->
+        <!--Upload Picture OptionVC-->
         <scene sceneID="hYb-nO-G9E">
             <objects>
-                <viewController storyboardIdentifier="ChoicePictureOptionViewController" id="uAN-hn-ctn" customClass="ChoicePictureOptionViewController" customModule="ONEPIC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UploadPictureOptionVC" id="uAN-hn-ctn" customClass="UploadPictureOptionVC" customModule="ONEPIC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rwo-PM-62c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

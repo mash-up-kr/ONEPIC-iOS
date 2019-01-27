@@ -18,22 +18,16 @@ final class PresentationAnimator: NSObject {
         self.isPresentation = isPresentation
         super.init()
     }
-    
 }
 
-// MARK: - UIViewControllerAnimatedTransitioning
 extension PresentationAnimator: UIViewControllerAnimatedTransitioning {
-    func transitionDuration(
-        using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.3
     }
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-        
         let key = isPresentation ? UITransitionContextViewControllerKey.to : UITransitionContextViewControllerKey.from
-        
         let controller = transitionContext.viewController(forKey: key)!
-        
         if isPresentation {
             transitionContext.containerView.addSubview(controller.view)
         }
@@ -53,7 +47,6 @@ extension PresentationAnimator: UIViewControllerAnimatedTransitioning {
         
         let initialFrame = isPresentation ? dismissedFrame : presentedFrame
         let finalFrame = isPresentation ? presentedFrame : dismissedFrame
-        
         let animationDuration = transitionDuration(using: transitionContext)
         controller.view.frame = initialFrame
         UIView.animate(withDuration: animationDuration, animations: {

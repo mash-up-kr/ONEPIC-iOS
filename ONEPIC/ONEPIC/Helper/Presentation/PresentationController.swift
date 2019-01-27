@@ -18,12 +18,15 @@ class PresentationController: UIPresentationController {
         var frame: CGRect = .zero
         frame.size = size(forChildContentContainer: presentedViewController,
                           withParentContainerSize: containerView!.bounds.size)
+        guard let parentContainerView = containerView else {
+            return CGRect(x: 0, y: 0, width: 0, height: 0)
+        }
         
         switch direction {
         case .right:
-            frame.origin.x = containerView!.frame.width * (1 - breadth)
+            frame.origin.x = parentContainerView.frame.width * (1 - breadth)
         case .bottom:
-            frame.origin.y = containerView!.frame.height * (1 - breadth)
+            frame.origin.y = parentContainerView.frame.height * (1 - breadth)
         default:
             frame.origin = .zero
         }

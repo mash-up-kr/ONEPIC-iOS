@@ -17,20 +17,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         transitionDelegate.direction = .bottom
-        uiTestButton.addTarget(nil, action: #selector(printTest), for: .touchUpInside)
-
+        uiTestButton.addTarget(nil, action: #selector(presentPictureOptionModal), for: .touchUpInside)
     }
     
-    @objc func printTest() {
-//        let tempStoryBoard = UIStoryboard(name: "ChoicePictureOption", bundle: nil)
-//        let tempVC = tempStoryBoard.instantiateViewController(withIdentifier: "ChoicePictureOptionViewController")
-        
-        let tempVC = UIStoryboard(name: "ChoicePictureOption", bundle: nil).instantiateViewController(withIdentifier: "ChoicePictureOptionViewController")
-        
-        tempVC.transitioningDelegate = transitionDelegate
-        tempVC.modalPresentationStyle = .custom
-        
-        present(tempVC, animated: true)
+    @objc func presentPictureOptionModal() {
+        let uploadPictureOptionModal = UIStoryboard(name: "UploadPictureOption", bundle: nil).instantiateViewController(withIdentifier: "UploadPictureOptionVC")
+        uploadPictureOptionModal.transitioningDelegate = transitionDelegate
+        uploadPictureOptionModal.modalPresentationStyle = .custom
+        present(uploadPictureOptionModal, animated: true)
     }
 
 
