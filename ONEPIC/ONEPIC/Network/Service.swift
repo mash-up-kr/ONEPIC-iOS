@@ -31,7 +31,12 @@ enum Service {
 
 extension Service: TargetType {
     var baseURL: URL {
-        return URL(string: "http://13.113.246.46:3000/")!
+        let urlString = "http://13.113.246.46:3000/"
+        guard let url = URL(string: urlString) else {
+            assertionFailure("\(urlString) doesn't exist!")
+            return URL(string: "")!
+        }
+        return url
     }
 
     var path: String {

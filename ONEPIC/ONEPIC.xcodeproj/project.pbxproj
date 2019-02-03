@@ -10,7 +10,6 @@
 		3DBB96C196DD18488E34944D /* Pods_ONEPIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1846F531838B0368840EEC /* Pods_ONEPIC.framework */; };
 		3E92E8BF2D5083AAD2D535C4 /* Pods_ONEPICUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896C227D313B3448F690FC6 /* Pods_ONEPICUITests.framework */; };
 		CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */; };
-		CE34E30221A96BC9004E6586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E30121A96BC9004E6586 /* ViewController.swift */; };
 		CE34E30521A96BC9004E6586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30321A96BC9004E6586 /* Main.storyboard */; };
 		CE34E30721A96BCB004E6586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30621A96BCB004E6586 /* Assets.xcassets */; };
 		CE34E30A21A96BCB004E6586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30821A96BCB004E6586 /* LaunchScreen.storyboard */; };
@@ -18,6 +17,31 @@
 		CE34E32021A96BCB004E6586 /* ONEPICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E31F21A96BCB004E6586 /* ONEPICUITests.swift */; };
 		CE5C9F1C220729DD0006FCA9 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F1B220729DD0006FCA9 /* NetworkProvider.swift */; };
 		CE5C9F1E22072F110006FCA9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F1D22072F110006FCA9 /* Service.swift */; };
+		CE5C9F22220749020006FCA9 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F21220749020006FCA9 /* LaunchViewController.swift */; };
+		CE5C9F242207490D0006FCA9 /* LaunchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F232207490D0006FCA9 /* LaunchView.storyboard */; };
+		CE5C9F28220749A40006FCA9 /* MyFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F27220749A40006FCA9 /* MyFeedViewController.swift */; };
+		CE5C9F3122074A740006FCA9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F3022074A740006FCA9 /* Model.swift */; };
+		CE5C9F3322074A920006FCA9 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F3222074A920006FCA9 /* CustomView.swift */; };
+		CE5C9F3522074A9D0006FCA9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F3422074A9D0006FCA9 /* StringExtension.swift */; };
+		CE5C9F3722074AAA0006FCA9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F3622074AAA0006FCA9 /* DataManager.swift */; };
+		CE5C9F3922074AEA0006FCA9 /* OtherFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F3822074AEA0006FCA9 /* OtherFeedViewController.swift */; };
+		CE5C9F3B22074AF80006FCA9 /* OtherFeedView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F3A22074AF80006FCA9 /* OtherFeedView.storyboard */; };
+		CE5C9F3D22074B3A0006FCA9 /* MenuView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F3C22074B3A0006FCA9 /* MenuView.storyboard */; };
+		CE5C9F3F22074B480006FCA9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F3E22074B480006FCA9 /* MenuViewController.swift */; };
+		CE5C9F4122074BAA0006FCA9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F4022074BAA0006FCA9 /* MapViewController.swift */; };
+		CE5C9F4322074BB30006FCA9 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F4222074BB30006FCA9 /* MapView.storyboard */; };
+		CE5C9F6422074F780006FCA9 /* FilterView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F6222074F780006FCA9 /* FilterView.storyboard */; };
+		CE5C9F6522074F780006FCA9 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F6322074F780006FCA9 /* FilterViewController.swift */; };
+		CE5C9F6822074F7F0006FCA9 /* MyPageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F6622074F7F0006FCA9 /* MyPageView.storyboard */; };
+		CE5C9F6922074F7F0006FCA9 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F6722074F7F0006FCA9 /* MyPageViewController.swift */; };
+		CE5C9F6C22074F860006FCA9 /* PostView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F6A22074F860006FCA9 /* PostView.storyboard */; };
+		CE5C9F6D22074F860006FCA9 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F6B22074F860006FCA9 /* PostViewController.swift */; };
+		CE5C9F7022074F8F0006FCA9 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F6E22074F8F0006FCA9 /* LoginView.storyboard */; };
+		CE5C9F7122074F8F0006FCA9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F6F22074F8F0006FCA9 /* LoginViewController.swift */; };
+		CE5C9F7422074F950006FCA9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F7222074F950006FCA9 /* SearchViewController.swift */; };
+		CE5C9F7522074F950006FCA9 /* SearchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F7322074F950006FCA9 /* SearchView.storyboard */; };
+		CE5C9F7822074F9B0006FCA9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F7622074F9B0006FCA9 /* SettingViewController.swift */; };
+		CE5C9F7922074F9B0006FCA9 /* SettingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C9F7722074F9B0006FCA9 /* SettingView.storyboard */; };
 		D3C7052A786E5EAE7083B707 /* Pods_ONEPICTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348D91A2DB3E8649EAB480B4 /* Pods_ONEPICTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +73,6 @@
 		9F9B24D5619CF8BD76CB98AA /* Pods-ONEPIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPIC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPIC/Pods-ONEPIC.release.xcconfig"; sourceTree = "<group>"; };
 		CE34E2FC21A96BC9004E6586 /* ONEPIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONEPIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE34E30121A96BC9004E6586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE34E30421A96BC9004E6586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE34E30621A96BCB004E6586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE34E30921A96BCB004E6586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +85,31 @@
 		CE34E32121A96BCB004E6586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5C9F1B220729DD0006FCA9 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 		CE5C9F1D22072F110006FCA9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CE5C9F21220749020006FCA9 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		CE5C9F232207490D0006FCA9 /* LaunchView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchView.storyboard; sourceTree = "<group>"; };
+		CE5C9F27220749A40006FCA9 /* MyFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeedViewController.swift; sourceTree = "<group>"; };
+		CE5C9F3022074A740006FCA9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE5C9F3222074A920006FCA9 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		CE5C9F3422074A9D0006FCA9 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		CE5C9F3622074AAA0006FCA9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CE5C9F3822074AEA0006FCA9 /* OtherFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFeedViewController.swift; sourceTree = "<group>"; };
+		CE5C9F3A22074AF80006FCA9 /* OtherFeedView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OtherFeedView.storyboard; sourceTree = "<group>"; };
+		CE5C9F3C22074B3A0006FCA9 /* MenuView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuView.storyboard; sourceTree = "<group>"; };
+		CE5C9F3E22074B480006FCA9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CE5C9F4022074BAA0006FCA9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CE5C9F4222074BB30006FCA9 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		CE5C9F6222074F780006FCA9 /* FilterView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FilterView.storyboard; sourceTree = "<group>"; };
+		CE5C9F6322074F780006FCA9 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		CE5C9F6622074F7F0006FCA9 /* MyPageView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyPageView.storyboard; sourceTree = "<group>"; };
+		CE5C9F6722074F7F0006FCA9 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		CE5C9F6A22074F860006FCA9 /* PostView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PostView.storyboard; sourceTree = "<group>"; };
+		CE5C9F6B22074F860006FCA9 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		CE5C9F6E22074F8F0006FCA9 /* LoginView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		CE5C9F6F22074F8F0006FCA9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE5C9F7222074F950006FCA9 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CE5C9F7322074F950006FCA9 /* SearchView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchView.storyboard; sourceTree = "<group>"; };
+		CE5C9F7622074F9B0006FCA9 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CE5C9F7722074F9B0006FCA9 /* SettingView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingView.storyboard; sourceTree = "<group>"; };
 		DCA6E3C54923B2E91CA2B7AD /* Pods-ONEPICTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPICTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPICTests/Pods-ONEPICTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,14 +189,22 @@
 		CE34E2FE21A96BC9004E6586 /* ONEPIC */ = {
 			isa = PBXGroup;
 			children = (
-				CE5C9F1F220736FB0006FCA9 /* Extension */,
+				CE5C9F26220749730006FCA9 /* Support Files */,
 				CE5C9F1A220729870006FCA9 /* Network */,
+				CE5C9F2E22074A510006FCA9 /* Manager */,
+				CE5C9F2B22074A390006FCA9 /* Common */,
+				CE5C9F20220748E40006FCA9 /* Launch */,
+				CE5C9F4622074C500006FCA9 /* Login */,
+				CE5C9F25220749480006FCA9 /* MyFeed */,
+				CE5C9F2A22074A200006FCA9 /* OtherFeed */,
+				CE5C9F2922074A040006FCA9 /* Menu */,
+				CE5C9F4922074C960006FCA9 /* Filter */,
+				CE5C9F4722074C760006FCA9 /* Post */,
+				CE5C9F4522074C3D0006FCA9 /* Search */,
+				CE5C9F4822074C810006FCA9 /* MyPage */,
+				CE5C9F4422074C1D0006FCA9 /* Setting */,
 				CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */,
-				CE34E30121A96BC9004E6586 /* ViewController.swift */,
-				CE34E30321A96BC9004E6586 /* Main.storyboard */,
-				CE34E30621A96BCB004E6586 /* Assets.xcassets */,
 				CE34E30821A96BCB004E6586 /* LaunchScreen.storyboard */,
-				CE34E30B21A96BCB004E6586 /* Info.plist */,
 			);
 			path = ONEPIC;
 			sourceTree = "<group>";
@@ -174,6 +230,7 @@
 		CE5C9F1A220729870006FCA9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				CE5C9F2F22074A630006FCA9 /* Model */,
 				CE5C9F1D22072F110006FCA9 /* Service.swift */,
 				CE5C9F1B220729DD0006FCA9 /* NetworkProvider.swift */,
 			);
@@ -183,8 +240,143 @@
 		CE5C9F1F220736FB0006FCA9 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CE5C9F3422074A9D0006FCA9 /* StringExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE5C9F20220748E40006FCA9 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F21220749020006FCA9 /* LaunchViewController.swift */,
+				CE5C9F232207490D0006FCA9 /* LaunchView.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		CE5C9F25220749480006FCA9 /* MyFeed */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F27220749A40006FCA9 /* MyFeedViewController.swift */,
+				CE34E30321A96BC9004E6586 /* Main.storyboard */,
+				CE5C9F4022074BAA0006FCA9 /* MapViewController.swift */,
+				CE5C9F4222074BB30006FCA9 /* MapView.storyboard */,
+			);
+			path = MyFeed;
+			sourceTree = "<group>";
+		};
+		CE5C9F26220749730006FCA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE34E30621A96BCB004E6586 /* Assets.xcassets */,
+				CE34E30B21A96BCB004E6586 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		CE5C9F2922074A040006FCA9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F3E22074B480006FCA9 /* MenuViewController.swift */,
+				CE5C9F3C22074B3A0006FCA9 /* MenuView.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CE5C9F2A22074A200006FCA9 /* OtherFeed */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F3822074AEA0006FCA9 /* OtherFeedViewController.swift */,
+				CE5C9F3A22074AF80006FCA9 /* OtherFeedView.storyboard */,
+			);
+			path = OtherFeed;
+			sourceTree = "<group>";
+		};
+		CE5C9F2B22074A390006FCA9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F1F220736FB0006FCA9 /* Extension */,
+				CE5C9F2C22074A400006FCA9 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE5C9F2C22074A400006FCA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F3222074A920006FCA9 /* CustomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE5C9F2E22074A510006FCA9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F3622074AAA0006FCA9 /* DataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CE5C9F2F22074A630006FCA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F3022074A740006FCA9 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE5C9F4422074C1D0006FCA9 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F7622074F9B0006FCA9 /* SettingViewController.swift */,
+				CE5C9F7722074F9B0006FCA9 /* SettingView.storyboard */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		CE5C9F4522074C3D0006FCA9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F7222074F950006FCA9 /* SearchViewController.swift */,
+				CE5C9F7322074F950006FCA9 /* SearchView.storyboard */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CE5C9F4622074C500006FCA9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F6F22074F8F0006FCA9 /* LoginViewController.swift */,
+				CE5C9F6E22074F8F0006FCA9 /* LoginView.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE5C9F4722074C760006FCA9 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F6B22074F860006FCA9 /* PostViewController.swift */,
+				CE5C9F6A22074F860006FCA9 /* PostView.storyboard */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		CE5C9F4822074C810006FCA9 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F6722074F7F0006FCA9 /* MyPageViewController.swift */,
+				CE5C9F6622074F7F0006FCA9 /* MyPageView.storyboard */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		CE5C9F4922074C960006FCA9 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F6322074F780006FCA9 /* FilterViewController.swift */,
+				CE5C9F6222074F780006FCA9 /* FilterView.storyboard */,
+			);
+			path = Filter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +490,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE34E30A21A96BCB004E6586 /* LaunchScreen.storyboard in Resources */,
+				CE5C9F7522074F950006FCA9 /* SearchView.storyboard in Resources */,
+				CE5C9F4322074BB30006FCA9 /* MapView.storyboard in Resources */,
+				CE5C9F3B22074AF80006FCA9 /* OtherFeedView.storyboard in Resources */,
+				CE5C9F6822074F7F0006FCA9 /* MyPageView.storyboard in Resources */,
+				CE5C9F7022074F8F0006FCA9 /* LoginView.storyboard in Resources */,
+				CE5C9F3D22074B3A0006FCA9 /* MenuView.storyboard in Resources */,
+				CE5C9F7922074F9B0006FCA9 /* SettingView.storyboard in Resources */,
 				CE34E30721A96BCB004E6586 /* Assets.xcassets in Resources */,
+				CE5C9F6422074F780006FCA9 /* FilterView.storyboard in Resources */,
+				CE5C9F6C22074F860006FCA9 /* PostView.storyboard in Resources */,
+				CE5C9F242207490D0006FCA9 /* LaunchView.storyboard in Resources */,
 				CE34E30521A96BC9004E6586 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,9 +657,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE34E30221A96BC9004E6586 /* ViewController.swift in Sources */,
+				CE5C9F22220749020006FCA9 /* LaunchViewController.swift in Sources */,
 				CE5C9F1E22072F110006FCA9 /* Service.swift in Sources */,
+				CE5C9F28220749A40006FCA9 /* MyFeedViewController.swift in Sources */,
+				CE5C9F7422074F950006FCA9 /* SearchViewController.swift in Sources */,
+				CE5C9F3922074AEA0006FCA9 /* OtherFeedViewController.swift in Sources */,
+				CE5C9F7822074F9B0006FCA9 /* SettingViewController.swift in Sources */,
+				CE5C9F3F22074B480006FCA9 /* MenuViewController.swift in Sources */,
+				CE5C9F3322074A920006FCA9 /* CustomView.swift in Sources */,
+				CE5C9F3522074A9D0006FCA9 /* StringExtension.swift in Sources */,
+				CE5C9F6522074F780006FCA9 /* FilterViewController.swift in Sources */,
+				CE5C9F4122074BAA0006FCA9 /* MapViewController.swift in Sources */,
+				CE5C9F6D22074F860006FCA9 /* PostViewController.swift in Sources */,
+				CE5C9F6922074F7F0006FCA9 /* MyPageViewController.swift in Sources */,
+				CE5C9F3122074A740006FCA9 /* Model.swift in Sources */,
+				CE5C9F7122074F8F0006FCA9 /* LoginViewController.swift in Sources */,
 				CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */,
+				CE5C9F3722074AAA0006FCA9 /* DataManager.swift in Sources */,
 				CE5C9F1C220729DD0006FCA9 /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,7 +851,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ONEPIC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ONEPIC/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -653,7 +869,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ONEPIC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ONEPIC/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
