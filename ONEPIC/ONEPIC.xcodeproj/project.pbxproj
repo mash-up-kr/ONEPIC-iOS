@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DBB96C196DD18488E34944D /* Pods_ONEPIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1846F531838B0368840EEC /* Pods_ONEPIC.framework */; };
+		3E92E8BF2D5083AAD2D535C4 /* Pods_ONEPICUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896C227D313B3448F690FC6 /* Pods_ONEPICUITests.framework */; };
 		CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */; };
 		CE34E30221A96BC9004E6586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E30121A96BC9004E6586 /* ViewController.swift */; };
 		CE34E30521A96BC9004E6586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30321A96BC9004E6586 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		CE34E30A21A96BCB004E6586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30821A96BCB004E6586 /* LaunchScreen.storyboard */; };
 		CE34E31521A96BCB004E6586 /* ONEPICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E31421A96BCB004E6586 /* ONEPICTests.swift */; };
 		CE34E32021A96BCB004E6586 /* ONEPICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E31F21A96BCB004E6586 /* ONEPICUITests.swift */; };
+		CE5C9F1C220729DD0006FCA9 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F1B220729DD0006FCA9 /* NetworkProvider.swift */; };
+		CE5C9F1E22072F110006FCA9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C9F1D22072F110006FCA9 /* Service.swift */; };
+		D3C7052A786E5EAE7083B707 /* Pods_ONEPICTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348D91A2DB3E8649EAB480B4 /* Pods_ONEPICTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2896C227D313B3448F690FC6 /* Pods_ONEPICUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ONEPICUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		348D91A2DB3E8649EAB480B4 /* Pods_ONEPICTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ONEPICTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF043F947CCE5BEEF66705A /* Pods-ONEPICUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPICUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPICUITests/Pods-ONEPICUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57281AF0FB5D773F2E466BD6 /* Pods-ONEPICTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPICTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPICTests/Pods-ONEPICTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78348F962D6EC2301FEDB719 /* Pods-ONEPIC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPIC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPIC/Pods-ONEPIC.debug.xcconfig"; sourceTree = "<group>"; };
+		9AFD3484413045D9A91DA945 /* Pods-ONEPICUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPICUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPICUITests/Pods-ONEPICUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C1846F531838B0368840EEC /* Pods_ONEPIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ONEPIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9B24D5619CF8BD76CB98AA /* Pods-ONEPIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPIC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPIC/Pods-ONEPIC.release.xcconfig"; sourceTree = "<group>"; };
 		CE34E2FC21A96BC9004E6586 /* ONEPIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONEPIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE34E30121A96BC9004E6586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		CE34E31B21A96BCB004E6586 /* ONEPICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONEPICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE34E31F21A96BCB004E6586 /* ONEPICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONEPICUITests.swift; sourceTree = "<group>"; };
 		CE34E32121A96BCB004E6586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5C9F1B220729DD0006FCA9 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		CE5C9F1D22072F110006FCA9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DCA6E3C54923B2E91CA2B7AD /* Pods-ONEPICTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPICTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPICTests/Pods-ONEPICTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBB96C196DD18488E34944D /* Pods_ONEPIC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C7052A786E5EAE7083B707 /* Pods_ONEPICTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E92E8BF2D5083AAD2D535C4 /* Pods_ONEPICUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05B8C54A404C641F711852A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78348F962D6EC2301FEDB719 /* Pods-ONEPIC.debug.xcconfig */,
+				9F9B24D5619CF8BD76CB98AA /* Pods-ONEPIC.release.xcconfig */,
+				57281AF0FB5D773F2E466BD6 /* Pods-ONEPICTests.debug.xcconfig */,
+				DCA6E3C54923B2E91CA2B7AD /* Pods-ONEPICTests.release.xcconfig */,
+				4FF043F947CCE5BEEF66705A /* Pods-ONEPICUITests.debug.xcconfig */,
+				9AFD3484413045D9A91DA945 /* Pods-ONEPICUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		415C6866D87D523A5FBC5975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C1846F531838B0368840EEC /* Pods_ONEPIC.framework */,
+				348D91A2DB3E8649EAB480B4 /* Pods_ONEPICTests.framework */,
+				2896C227D313B3448F690FC6 /* Pods_ONEPICUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE34E2F321A96BC9004E6586 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				CE34E31321A96BCB004E6586 /* ONEPICTests */,
 				CE34E31E21A96BCB004E6586 /* ONEPICUITests */,
 				CE34E2FD21A96BC9004E6586 /* Products */,
+				05B8C54A404C641F711852A9 /* Pods */,
+				415C6866D87D523A5FBC5975 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +141,8 @@
 		CE34E2FE21A96BC9004E6586 /* ONEPIC */ = {
 			isa = PBXGroup;
 			children = (
+				CE5C9F1F220736FB0006FCA9 /* Extension */,
+				CE5C9F1A220729870006FCA9 /* Network */,
 				CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */,
 				CE34E30121A96BC9004E6586 /* ViewController.swift */,
 				CE34E30321A96BC9004E6586 /* Main.storyboard */,
@@ -125,6 +171,22 @@
 			path = ONEPICUITests;
 			sourceTree = "<group>";
 		};
+		CE5C9F1A220729870006FCA9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C9F1D22072F110006FCA9 /* Service.swift */,
+				CE5C9F1B220729DD0006FCA9 /* NetworkProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE5C9F1F220736FB0006FCA9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE34E32421A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPIC" */;
 			buildPhases = (
+				E998B50D98829201AE82492A /* [CP] Check Pods Manifest.lock */,
+				CE5C9F19220727A40006FCA9 /* Swift Lint Autocorrect */,
+				CE5C9F18220727780006FCA9 /* Swift Lint */,
 				CE34E2F821A96BC9004E6586 /* Sources */,
 				CE34E2F921A96BC9004E6586 /* Frameworks */,
 				CE34E2FA21A96BC9004E6586 /* Resources */,
+				074F5B09D0F744E94B71667A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE34E32721A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPICTests" */;
 			buildPhases = (
+				244B3349C01469AEF6C68136 /* [CP] Check Pods Manifest.lock */,
 				CE34E30C21A96BCB004E6586 /* Sources */,
 				CE34E30D21A96BCB004E6586 /* Frameworks */,
 				CE34E30E21A96BCB004E6586 /* Resources */,
@@ -167,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE34E32A21A96BCB004E6586 /* Build configuration list for PBXNativeTarget "ONEPICUITests" */;
 			buildPhases = (
+				42DB297F3127B5EC9BE02EC4 /* [CP] Check Pods Manifest.lock */,
 				CE34E31721A96BCB004E6586 /* Sources */,
 				CE34E31821A96BCB004E6586 /* Frameworks */,
 				CE34E31921A96BCB004E6586 /* Resources */,
@@ -251,13 +319,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		074F5B09D0F744E94B71667A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ONEPIC/Pods-ONEPIC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ONEPIC/Pods-ONEPIC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		244B3349C01469AEF6C68136 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ONEPICTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42DB297F3127B5EC9BE02EC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ONEPICUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE5C9F18220727780006FCA9 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		CE5C9F19220727A40006FCA9 /* Swift Lint Autocorrect */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint Autocorrect";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		E998B50D98829201AE82492A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ONEPIC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE34E2F821A96BC9004E6586 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE34E30221A96BC9004E6586 /* ViewController.swift in Sources */,
+				CE5C9F1E22072F110006FCA9 /* Service.swift in Sources */,
 				CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */,
+				CE5C9F1C220729DD0006FCA9 /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +631,7 @@
 		};
 		CE34E32521A96BCB004E6586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78348F962D6EC2301FEDB719 /* Pods-ONEPIC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +649,7 @@
 		};
 		CE34E32621A96BCB004E6586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9B24D5619CF8BD76CB98AA /* Pods-ONEPIC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +667,7 @@
 		};
 		CE34E32821A96BCB004E6586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57281AF0FB5D773F2E466BD6 /* Pods-ONEPICTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +688,7 @@
 		};
 		CE34E32921A96BCB004E6586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA6E3C54923B2E91CA2B7AD /* Pods-ONEPICTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +709,7 @@
 		};
 		CE34E32B21A96BCB004E6586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF043F947CCE5BEEF66705A /* Pods-ONEPICUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +729,7 @@
 		};
 		CE34E32C21A96BCB004E6586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFD3484413045D9A91DA945 /* Pods-ONEPICUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
