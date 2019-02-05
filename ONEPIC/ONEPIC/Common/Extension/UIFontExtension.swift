@@ -14,11 +14,11 @@ extension UIFont {
     class var textStyle1: UIFont {
         return UIFont.systemFont(ofSize: 18.0, weight: .semibold)
     }
-    
+
     class var textStyle2: UIFont {
         return UIFont.systemFont(ofSize: 16.0, weight: .regular)
     }
-    
+
     class var textStyle3: UIFont {
         return UIFont(name: "AppleSDGothicNeoB00", size: 14.0)!
     }
