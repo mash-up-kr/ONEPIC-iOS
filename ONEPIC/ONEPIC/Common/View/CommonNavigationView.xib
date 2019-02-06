@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CommonNavigationView" customModule="ONEPIC" customModuleProvider="target">
+            <connections>
+                <outlet property="leftButton" destination="4jZ-NE-ubv" id="D7o-o9-COo"/>
+                <outlet property="rightButton" destination="LwM-tM-YUT" id="gOQ-7u-a7v"/>
+                <outlet property="selectFeedButton" destination="3Ua-Hq-0Hh" id="ETd-3Q-0Bt"/>
+                <outlet property="titleLabel" destination="13c-21-5o3" id="lo2-wP-hXZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jZ-NE-ubv">
+                    <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="XAz-uH-mYI"/>
+                        <constraint firstAttribute="height" constant="48" id="u3n-7v-rgp"/>
+                    </constraints>
+                    <connections>
+                        <action selector="actionLeftButton:" destination="-1" eventType="touchUpInside" id="KnK-VO-wpf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwM-tM-YUT">
+                    <rect key="frame" x="327" y="0.0" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="Y4q-O6-QWZ"/>
+                        <constraint firstAttribute="height" constant="48" id="fEc-KV-VCQ"/>
+                    </constraints>
+                    <connections>
+                        <action selector="actionRightButton:" destination="-1" eventType="touchUpInside" id="P3e-xM-06R"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13c-21-5o3">
+                    <rect key="frame" x="164.5" y="13.5" width="46" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <color key="textColor" name="black"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ua-Hq-0Hh">
+                    <rect key="frame" x="147.5" y="13" width="10" height="22"/>
+                    <state key="normal" image="Down arrow small  "/>
+                    <connections>
+                        <action selector="actionSelectFeedButton:" destination="-1" eventType="touchUpInside" id="0XJ-lQ-AYN"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="13c-21-5o3" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BMb-tI-bRL"/>
+                <constraint firstItem="4jZ-NE-ubv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="CLv-yb-F1q"/>
+                <constraint firstItem="LwM-tM-YUT" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" id="IhR-zV-pgC"/>
+                <constraint firstItem="13c-21-5o3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="McI-Xs-V8d"/>
+                <constraint firstItem="3Ua-Hq-0Hh" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="N2M-Hy-l8X"/>
+                <constraint firstItem="4jZ-NE-ubv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="P7n-eh-wWH"/>
+                <constraint firstItem="4jZ-NE-ubv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" id="Rtc-zR-cbq"/>
+                <constraint firstItem="LwM-tM-YUT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="eKj-J6-9lv"/>
+                <constraint firstItem="13c-21-5o3" firstAttribute="leading" secondItem="3Ua-Hq-0Hh" secondAttribute="trailing" constant="7" id="ggj-Oj-QkV"/>
+                <constraint firstItem="13c-21-5o3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" id="jwb-iL-ga6"/>
+                <constraint firstItem="LwM-tM-YUT" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="olI-ML-K2Z"/>
+                <constraint firstItem="13c-21-5o3" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="r8u-3O-xS5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Down arrow small  " width="10" height="10"/>
+        <namedColor name="black">
+            <color red="0.10196078431372549" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

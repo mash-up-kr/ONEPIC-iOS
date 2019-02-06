@@ -1,5 +1,5 @@
 //
-//  OtherFeedViewController.swift
+//  FeedMapViewController.swift
 //  ONEPIC
 //
 //  Created by Daeyun Ethan on 04/02/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OtherFeedViewController: UIViewController {
+class FeedMapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

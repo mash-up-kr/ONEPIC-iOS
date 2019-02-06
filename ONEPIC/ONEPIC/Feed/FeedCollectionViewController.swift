@@ -1,14 +1,14 @@
 //
-//  MapViewController.swift
+//  FeedCollectionViewController.swift
 //  ONEPIC
 //
-//  Created by Daeyun Ethan on 04/02/2019.
+//  Created by Daeyun Ethan on 05/02/2019.
 //  Copyright © 2019 Mash-Up. All rights reserved.
 //
 
 import UIKit
 
-class MapViewController: UIViewController {
+class FeedCollectionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
