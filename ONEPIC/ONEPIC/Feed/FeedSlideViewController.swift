@@ -96,6 +96,8 @@ extension FeedSlideViewController: UICollectionViewDataSource {
             assertionFailure("FeedSlideViewCell doesn't exist.")
             return UICollectionViewCell()
         }
+
+        cell.configure(feedMode: feedMode)
         return cell
     }
 }
