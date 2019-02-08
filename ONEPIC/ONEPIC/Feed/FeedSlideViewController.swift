@@ -9,6 +9,11 @@
 import UIKit
 
 class FeedSlideViewController: UIViewController {
+    enum FeedMode {
+        case my
+        case others
+    }
+
     @IBOutlet weak var shadowView: UIView!
     @IBOutlet weak var collectionView: UICollectionView! {
         didSet {
@@ -18,6 +23,7 @@ class FeedSlideViewController: UIViewController {
         }
     }
 
+    var feedMode: FeedMode = .my
     var index: Int = 0
 
     // MARK: - View Cycle
@@ -65,6 +71,8 @@ class FeedSlideViewController: UIViewController {
             }
         }
     }
+
+    // MARK: - Actions
 }
 
 // MARK: - Collection View Delegate
