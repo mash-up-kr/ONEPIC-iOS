@@ -97,9 +97,6 @@
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="card_image_03 " translatesAutoresizingMaskIntoConstraints="NO" id="Pyq-Wq-nxp">
                                                                     <rect key="frame" x="0.0" y="0.0" width="292" height="384.66666666666669"/>
-                                                                    <connections>
-                                                                        <outletCollection property="gestureRecognizers" destination="FeT-4k-LR5" appends="YES" id="cVc-ps-c31"/>
-                                                                    </connections>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -228,11 +225,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tGY-dj-2eo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="FeT-4k-LR5">
-                    <connections>
-                        <action selector="actionFlipImage:" destination="urY-0V-1nZ" id="soe-OU-m9b"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-63.200000000000003" y="193.5960591133005"/>
         </scene>

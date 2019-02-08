@@ -57,6 +57,11 @@ class MainViewController: UIViewController {
     @IBOutlet weak var fadeOutImageViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var dimmedView: UIView!
 
+    // TEST
+    @IBOutlet weak var buttonContainerView: UIView!
+    @IBOutlet weak var changeToSlideButton: UIButton!
+    @IBOutlet weak var changeToCollctionButton: UIButton!
+
     var mode: Mode = .showFeedView
     var feedTabBarController: UITabBarController?
 
@@ -75,6 +80,10 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         gradationBottomConstraint.constant = gradationBottomMargin
         navigationView.setNavigationView(title: "My Pick", leftImage: #imageLiteral(resourceName: "icon_menu"), rightImage: #imageLiteral(resourceName: " icon_filter"), hiddenSelectButton: false)
+
+        // Test
+        changeToSlideButton.layer.cornerRadius = changeToSlideButton.bounds.height / 2
+        changeToCollctionButton.layer.cornerRadius = changeToCollctionButton.bounds.height / 2
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -107,17 +116,21 @@ class MainViewController: UIViewController {
         sender.isSelected.toggle()
         mode = sender.isSelected ? .selectFeedView : .showFeedView
 
-        let angle = CGFloat(Double.pi / 4)
+        if !sender.isSelected {
+            self.buttonContainerView.isHidden = !sender.isSelected
+        }
+
+        let angle = CGFloat(Double.pi / 64)
         UIView.animateKeyframes(
             withDuration: 0.5,
             delay: 0.0,
             animations: {
-                UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.25,
+                UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.3,
                                    animations: {
                                     self.floatingButtonImageView.transform = sender.isSelected ? self.floatingButtonImageView.transform.rotated(by: angle) : self.floatingButtonImageView.transform.rotated(by: -angle)
                 })
 
-                UIView.addKeyframe(withRelativeStartTime: 0.2, relativeDuration: 0.4,
+                UIView.addKeyframe(withRelativeStartTime: 0.3, relativeDuration: 0.4,
                                    animations: {
                                     self.floatingButtonImageView.image = sender.isSelected ?  #imageLiteral(resourceName: "icon_button_cancel") : #imageLiteral(resourceName: "icon_plus_button")
                 })
@@ -130,7 +143,15 @@ class MainViewController: UIViewController {
                                    animations: {
                                     self.view.layoutIfNeeded()
                 })
+            }, completion: { _ in
+                if sender.isSelected {
+                    self.buttonContainerView.isHidden = !sender.isSelected
+                }
             })
+    }
+
+    @IBAction private func actionChangeViewMode(_ sender: UIButton) {
+        feedTabBarController?.selectedIndex = sender.tag
     }
 
     @IBAction private func actionCloseMenu(_ sender: UITapGestureRecognizer) {

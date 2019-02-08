@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3DBB96C196DD18488E34944D /* Pods_ONEPIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1846F531838B0368840EEC /* Pods_ONEPIC.framework */; };
 		3E92E8BF2D5083AAD2D535C4 /* Pods_ONEPICUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896C227D313B3448F690FC6 /* Pods_ONEPICUITests.framework */; };
+		CE14F6BB220E151200FEB033 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F6BA220E151200FEB033 /* FeedCollectionViewCell.swift */; };
 		CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */; };
 		CE34E30521A96BC9004E6586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30321A96BC9004E6586 /* Main.storyboard */; };
 		CE34E30721A96BCB004E6586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30621A96BCB004E6586 /* Assets.xcassets */; };
@@ -80,6 +81,7 @@
 		9AFD3484413045D9A91DA945 /* Pods-ONEPICUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPICUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPICUITests/Pods-ONEPICUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9C1846F531838B0368840EEC /* Pods_ONEPIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ONEPIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9B24D5619CF8BD76CB98AA /* Pods-ONEPIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPIC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPIC/Pods-ONEPIC.release.xcconfig"; sourceTree = "<group>"; };
+		CE14F6BA220E151200FEB033 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE34E2FC21A96BC9004E6586 /* ONEPIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONEPIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE34E30421A96BC9004E6586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				CE3A6E462209F39B00B17032 /* FeedSlideViewCell.swift */,
+				CE14F6BA220E151200FEB033 /* FeedCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -712,6 +715,7 @@
 				CECDE4AE22075AF7002C25C0 /* UIColorExtension.swift in Sources */,
 				CE71C37C22075DCB000E7A4F /* UIFontExtension.swift in Sources */,
 				CE5C9F7822074F9B0006FCA9 /* SettingViewController.swift in Sources */,
+				CE14F6BB220E151200FEB033 /* FeedCollectionViewCell.swift in Sources */,
 				CE3A6DFC2209B07300B17032 /* FeedCollectionViewController.swift in Sources */,
 				CE5C9F3F22074B480006FCA9 /* MenuViewController.swift in Sources */,
 				CE3A6E4B220A93FF00B17032 /* UICollectionViewFlowLayoutExtension.swift in Sources */,
