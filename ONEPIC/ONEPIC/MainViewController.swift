@@ -195,7 +195,10 @@ extension MainViewController: CommonNavigationViewDelegate {
     }
 
     func tabRightButton() {
+        let storyboard = UIStoryboard(name: "FilterView", bundle: nil)
+        guard let controller = storyboard.instantiateInitialViewController() as? FilterViewController else { return }
 
+        present(controller, animated: false, completion: nil)
     }
 
     func changePick() {

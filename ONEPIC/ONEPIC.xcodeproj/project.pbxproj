@@ -11,6 +11,7 @@
 		3E92E8BF2D5083AAD2D535C4 /* Pods_ONEPICUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896C227D313B3448F690FC6 /* Pods_ONEPICUITests.framework */; };
 		CE14F6BB220E151200FEB033 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F6BA220E151200FEB033 /* FeedCollectionViewCell.swift */; };
 		CE14F6BD220E1B8600FEB033 /* ContentFlippable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F6BC220E1B8600FEB033 /* ContentFlippable.swift */; };
+		CE14F6BF220E727D00FEB033 /* PopupAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F6BE220E727D00FEB033 /* PopupAnimatable.swift */; };
 		CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */; };
 		CE34E30521A96BC9004E6586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30321A96BC9004E6586 /* Main.storyboard */; };
 		CE34E30721A96BCB004E6586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE34E30621A96BCB004E6586 /* Assets.xcassets */; };
@@ -84,6 +85,7 @@
 		9F9B24D5619CF8BD76CB98AA /* Pods-ONEPIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEPIC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEPIC/Pods-ONEPIC.release.xcconfig"; sourceTree = "<group>"; };
 		CE14F6BA220E151200FEB033 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE14F6BC220E1B8600FEB033 /* ContentFlippable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFlippable.swift; sourceTree = "<group>"; };
+		CE14F6BE220E727D00FEB033 /* PopupAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAnimatable.swift; sourceTree = "<group>"; };
 		CE34E2FC21A96BC9004E6586 /* ONEPIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONEPIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE34E2FF21A96BC9004E6586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE34E30421A96BC9004E6586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -344,6 +346,7 @@
 				CE5C9F1F220736FB0006FCA9 /* Extension */,
 				CE5C9F2C22074A400006FCA9 /* View */,
 				CE14F6BC220E1B8600FEB033 /* ContentFlippable.swift */,
+				CE14F6BE220E727D00FEB033 /* PopupAnimatable.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -730,6 +733,7 @@
 				CE5C9F6D22074F860006FCA9 /* PostViewController.swift in Sources */,
 				CE5C9F6922074F7F0006FCA9 /* MyPageViewController.swift in Sources */,
 				CE5C9F3122074A740006FCA9 /* Model.swift in Sources */,
+				CE14F6BF220E727D00FEB033 /* PopupAnimatable.swift in Sources */,
 				CE5C9F7122074F8F0006FCA9 /* LoginViewController.swift in Sources */,
 				CE34E30021A96BC9004E6586 /* AppDelegate.swift in Sources */,
 				CE5C9F3722074AAA0006FCA9 /* DataManager.swift in Sources */,
