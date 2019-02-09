@@ -46,6 +46,12 @@
                                             <constraint firstAttribute="height" id="P2n-SF-x8D"/>
                                         </constraints>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradation box_white-1" translatesAutoresizingMaskIntoConstraints="NO" id="ryC-cJ-ihj">
+                                        <rect key="frame" x="0.0" y="812" width="375" height="0.0"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" id="Y4b-Sr-dWc"/>
+                                        </constraints>
+                                    </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cOu-ED-HeU">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="92"/>
                                         <subviews>
@@ -111,6 +117,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ryC-cJ-ihj" secondAttribute="trailing" id="2Ll-w3-8Y8"/>
                                     <constraint firstItem="BV4-Tz-in9" firstAttribute="leading" secondItem="Jid-NS-h9u" secondAttribute="leading" id="3jz-eb-L3Q"/>
                                     <constraint firstItem="BV4-Tz-in9" firstAttribute="top" secondItem="Jid-NS-h9u" secondAttribute="top" id="Fbp-5B-bJz"/>
                                     <constraint firstAttribute="trailing" secondItem="3uV-jc-9r4" secondAttribute="trailing" id="L5J-ri-Zk9"/>
@@ -127,6 +134,8 @@
                                     <constraint firstAttribute="trailing" secondItem="L5k-bf-NZL" secondAttribute="trailing" id="m8Y-hQ-VvK"/>
                                     <constraint firstItem="3uV-jc-9r4" firstAttribute="leading" secondItem="vGY-Ie-oFc" secondAttribute="leading" id="muI-Qf-ne4"/>
                                     <constraint firstItem="cOu-ED-HeU" firstAttribute="leading" secondItem="Djk-4Y-RKh" secondAttribute="leading" id="pf5-69-DCc"/>
+                                    <constraint firstItem="ryC-cJ-ihj" firstAttribute="leading" secondItem="vGY-Ie-oFc" secondAttribute="leading" id="q0V-Gu-TD9"/>
+                                    <constraint firstAttribute="bottom" secondItem="ryC-cJ-ihj" secondAttribute="bottom" id="qFn-hd-bqe"/>
                                     <constraint firstAttribute="bottom" secondItem="L5k-bf-NZL" secondAttribute="bottom" id="r3Y-c8-EOv"/>
                                     <constraint firstItem="lTh-ih-up1" firstAttribute="centerX" secondItem="vGY-Ie-oFc" secondAttribute="centerX" id="xM0-X9-n57"/>
                                     <constraint firstItem="3uV-jc-9r4" firstAttribute="top" secondItem="cOu-ED-HeU" secondAttribute="bottom" id="yOF-gx-fGo"/>
@@ -162,11 +171,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="bottomFadeOutHeightConstraint" destination="Y4b-Sr-dWc" id="ggA-84-msp"/>
                         <outlet property="buttonContainerView" destination="lTh-ih-up1" id="TWJ-Ec-vfS"/>
                         <outlet property="changeToCollctionButton" destination="fSb-59-pa5" id="wsr-dU-1lK"/>
                         <outlet property="changeToSlideButton" destination="qqV-wV-Ehz" id="ygo-13-wDN"/>
                         <outlet property="dimmedView" destination="G3C-cf-MeF" id="S89-AY-vnR"/>
-                        <outlet property="fadeOutImageViewHeightConstraint" destination="P2n-SF-x8D" id="qBB-z8-Xf1"/>
                         <outlet property="feedContainerView" destination="L5k-bf-NZL" id="Npg-be-VIU"/>
                         <outlet property="feedContainerViewBottomConstraint" destination="r3Y-c8-EOv" id="oip-Mf-PvU"/>
                         <outlet property="feedContainerViewHeightConstraint" destination="QXJ-1Z-7fh" id="zym-no-5nP"/>
@@ -175,6 +184,7 @@
                         <outlet property="gradationBottomConstraint" destination="inU-bf-ROp" id="82p-R3-rfB"/>
                         <outlet property="menuContainerView" destination="YcK-gW-vHH" id="n6F-9x-6m8"/>
                         <outlet property="navigationView" destination="5ut-s9-Rvf" id="otz-wg-RXN"/>
+                        <outlet property="topFadeOutHeightConstraint" destination="P2n-SF-x8D" id="Yp3-Xq-jbf"/>
                         <outlet property="trailingConstraint" destination="3o3-Tf-wDm" id="WMp-rg-jwT"/>
                     </connections>
                 </viewController>
@@ -270,6 +280,7 @@
     <resources>
         <image name="gradation box_bottom" width="375" height="445"/>
         <image name="gradation box_white" width="375" height="224"/>
+        <image name="gradation box_white-1" width="375" height="306"/>
         <image name="icon_plus_button" width="70" height="70"/>
     </resources>
 </document>

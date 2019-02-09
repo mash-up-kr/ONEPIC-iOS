@@ -35,12 +35,21 @@ class MainViewController: UIViewController {
             }
         }
 
-        var fadeOutImageViewHeight: CGFloat {
+        var topFadeOutHeight: CGFloat {
             switch self {
             case .showFeedView:
                 return 0
             case .selectFeedView:
                 return 224.0
+            }
+        }
+
+        var bottomFadeOutHeight: CGFloat {
+            switch self {
+            case .showFeedView:
+                return 224.0
+            case .selectFeedView:
+                return 0
             }
         }
     }
@@ -54,7 +63,8 @@ class MainViewController: UIViewController {
     @IBOutlet weak var floatingButtonBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var floatingButtonImageView: UIImageView!
     @IBOutlet weak var gradationBottomConstraint: NSLayoutConstraint!
-    @IBOutlet weak var fadeOutImageViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var topFadeOutHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var bottomFadeOutHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var dimmedView: UIView!
 
     // TEST
@@ -137,7 +147,8 @@ class MainViewController: UIViewController {
 
                 self.feedContainerViewBottomConstraint.constant = self.mode.feedContainerViewBottomMargin
                 self.floatingButtonBottomConstraint.constant = self.mode.floatingButtonBottomMargin
-                self.fadeOutImageViewHeightConstraint.constant = self.mode.fadeOutImageViewHeight
+                self.topFadeOutHeightConstraint.constant = self.mode.topFadeOutHeight
+                self.bottomFadeOutHeightConstraint.constant = self.mode.bottomFadeOutHeight
                 self.gradationBottomConstraint.constant = self.gradationBottomMargin
                 UIView.addKeyframe(withRelativeStartTime: 0.3, relativeDuration: 0.5,
                                    animations: {

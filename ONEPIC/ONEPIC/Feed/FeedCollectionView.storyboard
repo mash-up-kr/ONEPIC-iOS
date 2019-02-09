@@ -49,9 +49,9 @@
                                                                     <rect key="frame" x="5.3333333333333357" y="5.3333333333333286" width="112.33333333333331" height="131.33333333333337"/>
                                                                     <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여행은 내삶의 원동력 ! :)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyf-cy-dMT">
-                                                                    <rect key="frame" x="6" y="62.666666666666657" width="111" height="17"/>
-                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여행은 내삶의 원동력 ! :)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyf-cy-dMT">
+                                                                    <rect key="frame" x="22" y="56.666666666666664" width="79" height="28.666666666666664"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -60,7 +60,7 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="fL0-Aa-mJr" secondAttribute="trailing" constant="5.2999999999999998" id="2xn-tf-IV5"/>
                                                                 <constraint firstItem="bw1-5n-V8B" firstAttribute="bottom" secondItem="fL0-Aa-mJr" secondAttribute="bottom" id="4Ke-y4-aCV"/>
-                                                                <constraint firstItem="kyf-cy-dMT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0Nb-52-Kb6" secondAttribute="leading" constant="6" id="5up-kF-Qeu"/>
+                                                                <constraint firstItem="kyf-cy-dMT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0Nb-52-Kb6" secondAttribute="leading" constant="8" id="5up-kF-Qeu"/>
                                                                 <constraint firstAttribute="bottom" secondItem="fL0-Aa-mJr" secondAttribute="bottom" constant="5.2999999999999998" id="9PN-4W-259"/>
                                                                 <constraint firstItem="fL0-Aa-mJr" firstAttribute="leading" secondItem="0Nb-52-Kb6" secondAttribute="leading" constant="5.2999999999999998" id="DzP-zc-3BR"/>
                                                                 <constraint firstItem="kyf-cy-dMT" firstAttribute="centerY" secondItem="0Nb-52-Kb6" secondAttribute="centerY" id="ESF-ep-Ejy"/>
@@ -68,7 +68,7 @@
                                                                 <constraint firstItem="kyf-cy-dMT" firstAttribute="centerX" secondItem="0Nb-52-Kb6" secondAttribute="centerX" id="KTe-UH-u0e"/>
                                                                 <constraint firstItem="bw1-5n-V8B" firstAttribute="leading" secondItem="fL0-Aa-mJr" secondAttribute="leading" id="Ke8-Qa-bLq"/>
                                                                 <constraint firstItem="bw1-5n-V8B" firstAttribute="top" secondItem="fL0-Aa-mJr" secondAttribute="top" id="Mer-MC-i6m"/>
-                                                                <constraint firstItem="kyf-cy-dMT" firstAttribute="top" relation="greaterThanOrEqual" secondItem="0Nb-52-Kb6" secondAttribute="top" constant="8" id="S97-md-WFm"/>
+                                                                <constraint firstItem="kyf-cy-dMT" firstAttribute="top" relation="greaterThanOrEqual" secondItem="0Nb-52-Kb6" secondAttribute="top" constant="12" id="S97-md-WFm"/>
                                                                 <constraint firstItem="bw1-5n-V8B" firstAttribute="trailing" secondItem="fL0-Aa-mJr" secondAttribute="trailing" id="Zz6-gS-vAY"/>
                                                             </constraints>
                                                         </view>
@@ -121,21 +121,12 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradation box_white-1" translatesAutoresizingMaskIntoConstraints="NO" id="o6T-PH-FHj">
-                                <rect key="frame" x="0.0" y="588" width="375" height="224"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="224" id="ZDe-5x-Hri"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="5N5-HC-XdS" secondAttribute="bottom" id="CYK-7l-Kip"/>
-                            <constraint firstAttribute="bottom" secondItem="o6T-PH-FHj" secondAttribute="bottom" id="QMq-XK-8dG"/>
                             <constraint firstItem="5N5-HC-XdS" firstAttribute="top" secondItem="kX9-jA-JTn" secondAttribute="top" id="fIL-Mj-B1l"/>
                             <constraint firstAttribute="trailing" secondItem="5N5-HC-XdS" secondAttribute="trailing" id="fwF-4L-7AQ"/>
-                            <constraint firstAttribute="trailing" secondItem="o6T-PH-FHj" secondAttribute="trailing" id="h6Y-EI-AHZ"/>
-                            <constraint firstItem="o6T-PH-FHj" firstAttribute="leading" secondItem="kX9-jA-JTn" secondAttribute="leading" id="nfC-Rd-iq8"/>
                             <constraint firstItem="5N5-HC-XdS" firstAttribute="leading" secondItem="kX9-jA-JTn" secondAttribute="leading" id="oeJ-JM-DiL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sdT-G9-znN"/>
@@ -152,6 +143,5 @@
     <resources>
         <image name="card_image_01" width="292" height="262.66665649414062"/>
         <image name="card_image_03 " width="292" height="418"/>
-        <image name="gradation box_white-1" width="375" height="306"/>
     </resources>
 </document>

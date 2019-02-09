@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedCollectionViewCell: UICollectionViewCell {
+class FeedCollectionViewCell: UICollectionViewCell, ContentFlippable {
     @IBOutlet weak var contentContainerView: UIView!
 
     @IBOutlet weak var onePicContainerView: UIView!
@@ -19,7 +19,7 @@ class FeedCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var pickDimmedImageView: UIImageView!
     @IBOutlet weak var pickTextLabel: UILabel!
 
-    private var isFlipped: Bool = false
+    internal var isFlipped: Bool = false
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,19 +27,15 @@ class FeedCollectionViewCell: UICollectionViewCell {
         contentContainerView.layer.cornerRadius = 6.0
         onePicImageView.layer.cornerRadius = 4.0
 
+        addGesture()
+    }
+
+    func addGesture() {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(actionFlipImage))
         contentContainerView.addGestureRecognizer(tapGestureRecognizer)
     }
 
     @objc private func actionFlipImage(_ sender: UITapGestureRecognizer) {
-        isFlipped.toggle()
-        guard let cardToFlip = isFlipped ? onePicContainerView : pickContainerView,
-            let bottomCard = isFlipped ? pickContainerView : onePicContainerView else { return }
-
-        UIView.transition(from: cardToFlip,
-                          to: bottomCard,
-                          duration: 0.5,
-                          options: [.transitionFlipFromRight, .showHideTransitionViews],
-                          completion: nil)
+        flipImage()
     }
 }

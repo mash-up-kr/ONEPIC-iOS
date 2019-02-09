@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedSlideViewCell: UICollectionViewCell {
+class FeedSlideViewCell: UICollectionViewCell, ContentFlippable {
     @IBOutlet weak var contentContainerView: UIView!
     @IBOutlet weak var continentsLabel: UILabel!
     @IBOutlet weak var monthLabel: UILabel!
@@ -29,7 +29,7 @@ class FeedSlideViewCell: UICollectionViewCell {
     @IBOutlet weak var pickDimmedImageView: UIImageView!
     @IBOutlet weak var pickTextLabel: UILabel!
 
-    private var isFlipped: Bool = false
+    internal var isFlipped: Bool = false
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -37,6 +37,10 @@ class FeedSlideViewCell: UICollectionViewCell {
         contentContainerView.layer.cornerRadius = 14.0
         onePicImageView.layer.cornerRadius = 3.0
 
+        addGesture()
+    }
+
+    func addGesture() {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(actionFlipImage))
         contentContainerView.addGestureRecognizer(tapGestureRecognizer)
     }
@@ -53,14 +57,6 @@ class FeedSlideViewCell: UICollectionViewCell {
     }
 
     @objc private func actionFlipImage(_ sender: UITapGestureRecognizer) {
-        isFlipped.toggle()
-        guard let cardToFlip = isFlipped ? onePicContainerView : pickContainerView,
-            let bottomCard = isFlipped ? pickContainerView : onePicContainerView else { return }
-
-        UIView.transition(from: cardToFlip,
-                          to: bottomCard,
-                          duration: 0.5,
-                          options: [.transitionFlipFromRight, .showHideTransitionViews],
-                          completion: nil)
+        flipImage()
     }
 }
